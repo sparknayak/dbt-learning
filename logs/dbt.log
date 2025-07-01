@@ -1,14 +1,12 @@
-[0m17:40:12.868046 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A56390070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A58E30790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A58E30550>]}
+[0m18:48:00.270870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015D89E11480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015D8B0B9030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015D8B0B8E50>]}
 
 
-============================== 17:40:12.877023 | 9fc85116-2a6e-466b-9313-f3dcccdab8ff ==============================
-[0m17:40:12.877023 [info ] [MainThread]: Running with dbt=1.8.9
-[0m17:40:12.880021 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\spark\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
-[0m17:40:12.928058 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object.. Dictionary: {'dir': WindowsPath('C:/Users/spark/.dbt')}
-[0m17:40:12.930020 [info ] [MainThread]: Creating dbt configuration folder at 
-[0m17:42:04.820342 [debug] [MainThread]: Starter project path: C:\Users\spark\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\include\starter_project
-[0m17:42:04.987063 [info ] [MainThread]: 
-Your new dbt project "dbt_first_project" was created!
+============================== 18:48:00.270870 | 7e97e7f6-69fb-4388-8474-6fdf1d1b92ac ==============================
+[0m18:48:00.270870 [info ] [MainThread]: Running with dbt=1.10.2
+[0m18:48:00.270870 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\spark\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:48:18.464370 [debug] [MainThread]: Starter project path: C:\Users\spark\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m18:48:18.509706 [info ] [MainThread]: 
+Your new dbt project "train_dbt_march" was created!
 
 For more information on how to configure the profiles.yml file,
 please consult the dbt documentation here:
@@ -23,8 +21,29 @@ Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
 
 Happy modeling!
 
-[0m17:42:04.991775 [info ] [MainThread]: Setting up your profile.
-[0m17:44:18.540537 [info ] [MainThread]: Profile dbt_first_project written to C:\Users\spark\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
-[0m17:44:18.544847 [debug] [MainThread]: Command `dbt init` succeeded at 17:44:18.544847 after 245.81 seconds
-[0m17:44:18.545843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A56390070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A58E30490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A58EB60D0>]}
-[0m17:44:18.547844 [debug] [MainThread]: Flushing usage events
+[0m18:48:18.514705 [info ] [MainThread]: Setting up your profile.
+[0m18:50:43.194288 [info ] [MainThread]: Profile train_dbt_march written to C:\Users\spark\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:50:43.199683 [debug] [MainThread]: Command `dbt init` succeeded at 18:50:43.199683 after 163.07 seconds
+[0m18:50:43.205931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015D89E11480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015D8AECA3E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015D8B0B8DF0>]}
+[0m18:50:43.207528 [debug] [MainThread]: Flushing usage events
+[0m18:50:44.167043 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:51:10.016000 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAEBF114B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAEE1838B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAEE1836D0>]}
+
+
+============================== 18:51:10.037199 | 0730dca1-a087-4560-98f7-260acdacdb93 ==============================
+[0m18:51:10.037199 [info ] [MainThread]: Running with dbt=1.10.2
+[0m18:51:10.039146 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\spark\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:51:10.087814 [info ] [MainThread]: dbt version: 1.10.2
+[0m18:51:10.087814 [info ] [MainThread]: python version: 3.10.1
+[0m18:51:10.087814 [info ] [MainThread]: python path: C:\Users\spark\AppData\Local\Programs\Python\Python310\python.exe
+[0m18:51:10.087814 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m18:51:11.941222 [info ] [MainThread]: Using profiles dir at C:\Users\spark\.dbt
+[0m18:51:11.943223 [info ] [MainThread]: Using profiles.yml file at C:\Users\spark\.dbt\profiles.yml
+[0m18:51:11.945220 [info ] [MainThread]: Using dbt_project.yml file at C:\Learning2025\DBT\DBTRepo\dbt-learning\dbt_project.yml
+[0m18:51:11.946221 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m18:51:11.950221 [debug] [MainThread]: Command `dbt debug` failed at 18:51:11.950221 after 2.07 seconds
+[0m18:51:11.951224 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAEBF114B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAF6C7BF70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAEE12AC50>]}
+[0m18:51:11.953222 [debug] [MainThread]: Flushing usage events
+[0m18:51:12.886915 [debug] [MainThread]: An error was encountered while trying to flush usage events
